@@ -1,12 +1,12 @@
 # Actividad de consulta: Conceptos de NestJS, Prisma y MySQL
 
-1. Explica la diferencia entre un controlador (Controller) y un servicio (Service) en NestJS.
+1. **Explica la diferencia entre un controlador (Controller) y un servicio (Service) en NestJS.**
 El controller gestiona las solicitudes HTTP y define los endpoints de la API. Recibe las peticiones del cliente. Mientras que el Service contiene la lógica de la aplicacion. Realiza operaciones como consultas a bases de datos, procesamiento de datos o interacción con APIs externas.
 
-2. ¿Qué hace el comando npx prisma migrate dev y cuándo se utiliza?
+2. **¿Qué hace el comando npx prisma migrate dev y cuándo se utiliza?**
 El comando `npx prisma migrate dev` sirve para sincronizar el esquema de tu base de datos con los cambios definidos en el archivo `schema.prisma`. Es decir, detecta los cambios, aplica las migraciones necesarias y actualiza la base de datos.
 
-3. ¿Qué representa la variable DATABASE_URL en el archivo .env?
+3. **¿Qué representa la variable DATABASE_URL en el archivo .env?**
 La variable `DATABASE_URL` representa la URL de conexión que hace Prisma a la base de datos. Contiene información como el tipo de base de datos, el nombre de la base de datos, el usuario y la contraseña.
 
 
